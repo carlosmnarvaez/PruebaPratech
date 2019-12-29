@@ -1,0 +1,155 @@
+{
+
+ "data": [
+
+    {
+      "id": "0000",
+      "title": "Curso 1",
+      "now": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "info": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "teaser": "texto 1",
+      "categories": [
+        "all",
+        "release"
+      ],
+
+      "image": "image/curso/cursos.jpg",
+      "date_pub": "2/19/2017",
+      "mode": [
+        2
+      ]
+    },
+
+
+    {
+      "id": "1001",
+      "title": "Curso 2",
+      "now": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "info": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "teaser": "texto 1",
+      "categories": [
+        "all",
+        "release",
+        "popular"
+
+      ],
+
+      "image": "image/curso/cursos.jpg",
+      "date_pub": "2/19/2017",
+      "mode": [
+        2
+      ]
+    },
+
+    {
+      "id": "1001",
+      "title": "Curso 3",
+      "now": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "info": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "teaser": "texto 1",
+      "categories": [
+        "all",
+        "popular"
+      ],
+
+      "image": "image/curso/cursos.jpg",
+      "date_pub": "2/19/2017",
+      "mode": [
+        2
+      ]
+    },
+
+    {
+      "id": "1004",
+      "title": "Curso 4",
+      "now": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "info": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "teaser": "texto 1",
+      "categories": [
+        "all",
+        "popular"
+      ],
+
+      "image": "image/curso/cursos.jpg",
+      "date_pub": "2/19/2017",
+      "mode": [
+        2
+      ]
+    },
+
+    {
+      "id": "1005",
+      "title": "Curso 5",
+      "now": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "info": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "teaser": "texto 1",
+      "categories": [
+        "all",
+        "trends"
+      ],
+
+      "image": "image/curso/cursos.jpg",
+      "date_pub": "2/19/2017",
+      "mode": [
+        2
+      ]
+    },
+
+    {
+      "id": "1006",
+      "title": "Curso 6",
+      "now": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "info": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "teaser": "texto 1",
+      "categories": [
+        "all",
+        "favorites"
+      ],
+
+      "image": "image/curso/cursos.jpg",
+      "date_pub": "2/19/2017",
+      "mode": [
+        2
+      ]
+    },
+
+    {
+      "id": "1007",
+      "title": "Curso 7",
+      "now": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "info": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "teaser": "texto 1",
+      "categories": [
+        "all",
+        "recommendation"
+      ],
+
+      "image": "image/curso/cursos.jpg",
+      "date_pub": "2/19/2017",
+      "mode": [
+        2
+      ]
+    },
+
+    {
+      "id": "1008",
+      "title": "Curso 8",
+      "now": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "info": "cursos/01/TMK/TMK_C01/TMK_C01_01.html",
+      "teaser": "texto 1",
+      "categories": [
+        "all",
+        "recommendation"
+      ],
+
+      "image": "image/curso/cursos.jpg",
+      "date_pub": "2/19/2017",
+      "mode": [
+        2
+      ]
+    }
+
+
+]
+
+}

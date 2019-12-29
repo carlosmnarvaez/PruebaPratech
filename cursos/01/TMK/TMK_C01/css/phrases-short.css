@@ -1,0 +1,52 @@
+.bda-phrases-short__container {
+	margin-top: 10px;
+}
+
+.bda-phrases-short__container span {
+	font-weight: bold;
+}
+
+.bda-phrases-short__container button {
+	position: relative;
+	    right: -53%;
+}
+
+.bda-phrases-short__content {
+	display: flex;
+	width: 70%;
+	margin: 80px auto 0;
+	line-height: 40px;
+}
+
+.bda-phrases-short__description {
+	margin-right: 30px;
+}
+
+.bda-phrases__input {
+	width: 30px;
+	margin-right: 5px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.bda-phrases__input:focus {
+	border: 1px solid #000;
+	outline: none;
+}
+
+.bda-phrases__input::-webkit-outer-spin-button,
+.bda-phrases__input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.success {
+	border: 1px solid #008000;
+}
+
+.error {
+	border: 1px solid #ff6347;
+}

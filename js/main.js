@@ -11,39 +11,39 @@ if ($(window).width() > 767) {
 
 
 
-function filtrar_por_categoria(movies,categoria) {
+function filtrar_por_categoria(cursos,categoria) {
     var matches=[];
-    movies.forEach(function(movie) {
-       if(movie.categories.indexOf(categoria)!==-1) {
-         matches.push(movie);
+    cursos.forEach(function(curso) {
+       if(curso.categories.indexOf(categoria)!==-1) {
+         matches.push(curso);
        }
     });
     return matches;
 }
 
 
-$.getJSON("movies.json", function(data) {
+$.getJSON("cursos.json", function(data) {
   
   jQuery('.filtro').click(function() {
      var categoria=jQuery(this).val();
-     var movies = filtrar_por_categoria(data.data,categoria);
+     var cursos = filtrar_por_categoria(data.data,categoria);
      
-     jQuery('#movies').empty();
-     movies.forEach(function(movie) {
+     jQuery('#cursos').empty();
+     cursos.forEach(function(curso) {
 
 
-        // var li_movie = jQuery('<li class="col-md-3">'+movie.title+'<p class="col-md-12">'+movie.teaser+'</p><img src=' + movie.image + '></img></li>');
+        // var li_curso = jQuery('<li class="col-md-3">'+curso.title+'<p class="col-md-12">'+curso.teaser+'</p><img src=' + curso.image + '></img></li>');
 
-        var li_movie = ""+
+        var li_curso = ""+
             "<li class='col-md-3'>"+
               "<div class='content_img_tabs'>"+
-                  "<div class='hover'><figure><img class='image' src=" + movie.image + "></img></figure></div>"+
+                  "<div class='hover'><figure><img class='image' src=" + curso.image + "></img></figure></div>"+
                   "<div class='middle'>"+
 
-                    "<p class='title'>"+movie.title+"</p>"+
+                    "<p class='title'>"+curso.title+"</p>"+
 
-                    "<a href="+movie.now+" class='btn_one'>WATCH NOW</a>"+
-                    "<a href="+movie.info+" class='btn_two'>MORE INFO</a>"+
+                    "<a href="+curso.now+" class='btn_one'>Realizar</a>"+
+                    "<a href="+curso.info+" class='btn_two'>Más información</a>"+
 
                   "</div>"+
               "</div>"+
@@ -53,7 +53,7 @@ $.getJSON("movies.json", function(data) {
 
 
 
-        jQuery('#movies').append(li_movie);
+        jQuery('#cursos').append(li_curso);
      });
 
 
